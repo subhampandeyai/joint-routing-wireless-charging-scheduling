@@ -1,0 +1,125 @@
+{
+  "formulation": "Final_formulation.docx \u2014 ADMM Sections I\u2013IX",
+  "modifications": [
+    "M1\u2013M9 (see docstring)"
+  ],
+  "charging_fix": "c=max(c_feas,c_price) [Eq.C M4]; continuous c during ADMM [M5]",
+  "total_objective": 1415.4923,
+  "routing_cost_km": 1400.1831,
+  "charging_cost_usd": 15.309189,
+  "n_iterations": 11,
+  "final_residual": 0.00945641,
+  "assignments": {
+    "req_26": "veh_8",
+    "req_1": "veh_10",
+    "req_15": "veh_5",
+    "req_8": "veh_4",
+    "req_3": "veh_1",
+    "req_11": "veh_2",
+    "req_23": "veh_10",
+    "req_5": "veh_6",
+    "req_9": "veh_10",
+    "req_7": "veh_7",
+    "req_13": "veh_2",
+    "req_25": "veh_7",
+    "req_17": "veh_1",
+    "req_16": "veh_1",
+    "req_20": "veh_1",
+    "req_2": "veh_1",
+    "req_10": "veh_2",
+    "req_30": "veh_2",
+    "req_19": "veh_2",
+    "req_14": "veh_3",
+    "req_18": "veh_3",
+    "req_28": "veh_3",
+    "req_4": "veh_3",
+    "req_6": "veh_3",
+    "req_29": "veh_4",
+    "req_27": "veh_4",
+    "req_21": "veh_4",
+    "req_24": "veh_4",
+    "req_22": "veh_5",
+    "req_12": "veh_5"
+  },
+  "requests_per_vehicle": {
+    "veh_1": 5,
+    "veh_2": 5,
+    "veh_3": 5,
+    "veh_4": 5,
+    "veh_5": 3,
+    "veh_6": 1,
+    "veh_7": 2,
+    "veh_8": 1,
+    "veh_9": 0,
+    "veh_10": 3
+  },
+  "route_costs_km": {
+    "veh_1": 235.195,
+    "veh_2": 232.515,
+    "veh_3": 234.099,
+    "veh_4": 219.714,
+    "veh_5": 165.75,
+    "veh_6": 61.982,
+    "veh_7": 83.018,
+    "veh_8": 33.464,
+    "veh_9": 57.844,
+    "veh_10": 76.602
+  },
+  "charging_costs": {
+    "veh_1": 5.0716,
+    "veh_2": 0.0,
+    "veh_3": 0.0,
+    "veh_4": 7.49536,
+    "veh_5": 0.0,
+    "veh_6": 0.0,
+    "veh_7": 2.74223,
+    "veh_8": 0.0,
+    "veh_9": 0.0,
+    "veh_10": 0.0
+  },
+  "final_soc_kWh": {
+    "veh_1": 11.324,
+    "veh_2": 3.171,
+    "veh_3": 3.0,
+    "veh_4": 15.235,
+    "veh_5": 10.875,
+    "veh_6": 22.848,
+    "veh_7": 24.464,
+    "veh_8": 26.139,
+    "veh_9": 23.326,
+    "veh_10": 21.161
+  },
+  "charge_events": {
+    "veh_1": [
+      [
+        34,
+        9.4,
+        21.538,
+        30.0
+      ]
+    ],
+    "veh_2": [],
+    "veh_3": [],
+    "veh_4": [
+      [
+        59,
+        11.76,
+        19.414,
+        30.0
+      ]
+    ],
+    "veh_5": [],
+    "veh_6": [],
+    "veh_7": [
+      [
+        15,
+        4.49,
+        25.957,
+        30.0
+      ]
+    ],
+    "veh_8": [],
+    "veh_9": [],
+    "veh_10": []
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "formulation": "Final_formulation.docx \u2014 ADMM Sections I\u2013IX",
+  "modifications": [
+    "M1\u2013M9 (see docstring)"
+  ],
+  "charging_fix": "c=max(c_feas,c_price) [Eq.C M4]; continuous c during ADMM [M5]",
+  "total_objective": 3109.0764,
+  "routing_cost_km": 3051.1797,
+  "charging_cost_usd": 57.896642,
+  "n_iterations": 13,
+  "final_residual": 0.00934941,
+  "assignments": {
+    "req_26": "veh_8",
+    "req_92": "veh_5",
+    "req_65": "veh_8",
+    "req_95": "veh_9",
+    "req_99": "veh_9",
+    "req_93": "veh_3",
+    "req_62": "veh_4",
+    "req_61": "veh_3",
+    "req_40": "veh_5",
+    "req_54": "veh_2",
+    "req_1": "veh_10",
+    "req_64": "veh_9",
+    "req_15": "veh_5",
+    "req_91": "veh_4",
+    "req_96": "veh_3",
+    "req_100": "veh_9",
+    "req_68": "veh_5",
+    "req_39": "veh_8",
+    "req_67": "veh_4",
+    "req_50": "veh_8",
+    "req_37": "veh_9",
+    "req_82": "veh_9",
+    "req_8": "veh_4",
+    "req_48": "veh_9",
+    "req_52": "veh_6",
+    "req_3": "veh_1",
+    "req_38": "veh_7",
+    "req_32": "veh_5",
+    "req_86": "veh_2",
+    "req_66": "veh_4",
+    "req_11": "veh_2",
+    "req_70": "veh_1",
+    "req_73": "veh_4",
+    "req_31": "veh_6",
+    "req_49": "veh_10",
+    "req_98": "veh_10",
+    "req_5": "veh_6",
+    "req_42": "veh_4",
+    "req_58": "veh_2",
+    "req_23": "veh_10",
+    "req_9": "veh_10",
+    "req_76": "veh_1",
+    "req_94": "veh_1",
+    "req_17": "veh_1",
+    "req_72": "veh_1",
+    "req_78": "veh_1",
+    "req_60": "veh_1",
+    "req_74": "veh_1",
+    "req_33": "veh_1",
+    "req_55": "veh_1",
+    "req_45": "veh_1",
+    "req_34": "veh_2",
+    "req_25": "veh_2",
+    "req_80": "veh_2",
+    "req_75": "veh_2",
+    "req_77": "veh_2",
+    "req_84": "veh_2",
+    "req_87": "veh_2",
+    "req_83": "veh_2",
+    "req_22": "veh_3",
+    "req_16": "veh_3",
+    "req_13": "veh_3",
+    "req_12": "veh_3",
+    "req_2": "veh_3",
+    "req_53": "veh_3",
+    "req_44": "veh_3",
+    "req_63": "veh_3",
+    "req_81": "veh_3",
+    "req_4": "veh_4",
+    "req_29": "veh_4",
+    "req_27": "veh_4",
+    "req_6": "veh_4",
+    "req_85": "veh_4",
+    "req_97": "veh_5",
+    "req_7": "veh_5",
+    "req_10": "veh_5",
+    "req_35": "veh_5",
+    "req_36": "veh_5",
+    "req_51": "veh_5",
+    "req_57": "veh_5",
+    "req_30": "veh_6",
+    "req_18": "veh_6",
+    "req_19": "veh_6",
+    "req_20": "veh_6",
+    "req_90": "veh_6",
+    "req_88": "veh_6",
+    "req_69": "veh_6",
+    "req_71": "veh_6",
+    "req_28": "veh_6",
+    "req_21": "veh_7",
+    "req_79": "veh_7",
+    "req_47": "veh_7",
+    "req_41": "veh_7",
+    "req_24": "veh_7",
+    "req_14": "veh_7",
+    "req_46": "veh_7",
+    "req_59": "veh_7",
+    "req_56": "veh_7",
+    "req_43": "veh_7",
+    "req_89": "veh_7"
+  },
+  "requests_per_vehicle": {
+    "veh_1": 12,
+    "veh_2": 12,
+    "veh_3": 12,
+    "veh_4": 12,
+    "veh_5": 12,
+    "veh_6": 12,
+    "veh_7": 12,
+    "veh_8": 4,
+    "veh_9": 7,
+    "veh_10": 5
+  },
+  "route_costs_km": {
+    "veh_1": 450.478,
+    "veh_2": 363.943,
+    "veh_3": 453.547,
+    "veh_4": 344.626,
+    "veh_5": 363.144,
+    "veh_6": 347.056,
+    "veh_7": 406.43,
+    "veh_8": 78.112,
+    "veh_9": 122.306,
+    "veh_10": 121.537
+  },
+  "charging_costs": {
+    "veh_1": 3.83437,
+    "veh_2": 23.15967,
+    "veh_3": 0.0,
+    "veh_4": 7.04399,
+    "veh_5": 3.08794,
+    "veh_6": 12.14854,
+    "veh_7": 0.0,
+    "veh_8": 0.0,
+    "veh_9": 5.68691,
+    "veh_10": 2.93521
+  },
+  "final_soc_kWh": {
+    "veh_1": 3.0,
+    "veh_2": 20.72,
+    "veh_3": 3.0,
+    "veh_4": 3.0,
+    "veh_5": 3.0,
+    "veh_6": 5.493,
+    "veh_7": 3.0,
+    "veh_8": 20.987,
+    "veh_9": 23.399,
+    "veh_10": 19.783
+  },
+  "charge_events": {
+    "veh_1": [
+      [
+        34,
+        7.11,
+        23.603,
+        30.0
+      ]
+    ],
+    "veh_2": [
+      [
+        23,
+        6.35,
+        24.286,
+        30.0
+      ],
+      [
+        169,
+        15.0,
+        12.001,
+        25.501
+      ],
+      [
+        117,
+        15.0,
+        11.239,
+        24.739
+      ]
+    ],
+    "veh_3": [],
+    "veh_4": [
+      [
+        125,
+        9.99,
+        21.008,
+        30.0
+      ]
+    ],
+    "veh_5": [
+      [
+        81,
+        4.5,
+        25.949,
+        30.0
+      ]
+    ],
+    "veh_6": [
+      [
+        63,
+        12.06,
+        19.145,
+        30.0
+      ],
+      [
+        37,
+        5.2,
+        25.317,
+        30.0
+      ]
+    ],
+    "veh_7": [],
+    "veh_8": [],
+    "veh_9": [
+      [
+        97,
+        8.35,
+        22.489,
+        30.0
+      ]
+    ],
+    "veh_10": [
+      [
+        18,
+        4.23,
+        26.194,
+        30.0
+      ]
+    ]
+  }
+}
